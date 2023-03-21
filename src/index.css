@@ -2,43 +2,69 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@1,700&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Bai Jamjuree', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
 }
 
-h1, h2, h2 {
+h1,
+h2,
+h2 {
   color: #112D35;
+}
+
+.hero {
+  background: hsla(228, 17%, 53%, 1);
+
+  background: linear-gradient(90deg, hsla(228, 17%, 53%, 1) 0%, hsla(229, 28%, 88%, 1) 100%);
+
+  background: -moz-linear-gradient(90deg, hsla(228, 17%, 53%, 1) 0%, hsla(229, 28%, 88%, 1) 100%);
+
+  background: -webkit-linear-gradient(90deg, hsla(228, 17%, 53%, 1) 0%, hsla(229, 28%, 88%, 1) 100%);
+
+  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#727A9A", endColorstr="#D8DBE9", GradientType=1);
 }
 
 .para {
   background-color: #1F94AA;
 }
 
-span{
+span {
   border-bottom: solid 8px;
   border-color: #1F94AA;
 }
+
 button {
   background-color: #1F94AA;
-  color: white
-  ;
+  color: white;
 }
 
 button:hover {
   background-color: #0b5765;
 }
 
-ul > li:hover {
+ul>li:hover {
   color: #1F94AA;
   cursor: pointer;
 }
 
 footer {
-  background-color:#112D35
+  background-color: #112D35
+}
+
+.sextion {
+  background: hsla(228, 17%, 53%, 1);
+
+  background: linear-gradient(90deg, hsla(228, 17%, 53%, 1) 0%, hsla(229, 28%, 88%, 1) 100%);
+
+  background: -moz-linear-gradient(90deg, hsla(228, 17%, 53%, 1) 0%, hsla(229, 28%, 88%, 1) 100%);
+
+  background: -webkit-linear-gradient(90deg, hsla(228, 17%, 53%, 1) 0%, hsla(229, 28%, 88%, 1) 100%);
+
+  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#727A9A", endColorstr="#D8DBE9", GradientType=1);
 }

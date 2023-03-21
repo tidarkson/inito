@@ -39,8 +39,8 @@ function Section() {
           <div className='grid md:grid-cols-2 gap-5'>
             <div>
               <img src={egif1} alt="" className='w-full' />
-              <div className='flex items-center justify-center md:gap-5 my-5'>
-                <p className='para  font-bold p-3 flex justify-center w-8 h-8 items-center rounded-full'>1</p>
+              <div className='flex items-center justify-start gap-5 my-5 '>
+                <p className='para font-bold p-3 flex justify-center w-8 h-8 items-center rounded-full'>1</p>
                 <p className='font-semibold text-sm'>Dip the test strip in urine for 15 seconds.</p>
               </div>
             </div>
