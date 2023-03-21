@@ -11,7 +11,7 @@ function Hero() {
         <div className='my-auto '>
           <h1 className='text-4xl lg:text-5xl font-bold'>Track your fertility hormones at home, in <span>five minutes</span></h1>
           <p className='my-12'>Get accurate results of Estrogen, LH and Progesterone with Inito, the all-in-one, FDA-registered fertility monitor.</p>
-          <button className='px-5 py-2 rounded-full'>Learn more</button>
+          <button className='px-6 py-3 rounded-full'>How does inito work</button>
         </div>
 
         <div className="md:relative">

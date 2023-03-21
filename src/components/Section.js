@@ -38,29 +38,27 @@ function Section() {
 
           <div className='grid md:grid-cols-2 gap-5'>
             <div>
-              <img src={egif1} alt="" className='w-full' />
+              <video autoplay="autoplay" loop="loop" muted="muted" oncontextmenu="return false" alt="Video: Dip test strip in urine" playsinline="true" src="https://dqxth8lmt6m4r.cloudfront.net/assets/v1/step1-20f55829b61479b8d0f4531b9b431966602e41dda62f8bb45f991cc49755b6a9.mp4"></video>
               <div className='flex items-center justify-start gap-5 my-5 '>
                 <p className='para font-bold p-3 flex justify-center w-8 h-8 items-center rounded-full'>1</p>
                 <p className='font-semibold text-sm'>Dip the test strip in urine for 15 seconds.</p>
               </div>
             </div>
             <div>
-              <img src={egif2} alt="" className='w-full'/>
+              <video autoplay="autoplay" loop="loop" muted="muted" oncontextmenu="return false" alt="Video: Insert strip into the monitor" playsinline="true" src="https://dqxth8lmt6m4r.cloudfront.net/assets/v1/step2-a7e58e66bd6edd928040bdeb9b80c6fce8a5f5d906232116f6f8ede281b94944.mp4"></video>
               <div className='flex items-center justify-center gap-5 my-5'>
                 <p className='para font-bold p-3 flex justify-center w-8 h-8 items-center rounded-full'>2</p>
                 <p className='font-semibold text-sm'>Attach the Inito Fertility Monitor to your iPhone*.</p>
               </div>
             </div>
             <div>
-              <img src={egif3} alt="" className='w-full'/>
-              <div className='flex items-center justify-center gap-5 my-5 '>
+              <video autoplay="autoplay" loop="loop" muted="muted" oncontextmenu="return false" alt="Video: Identify up to 6 fertile days" playsinline="true" src="https://dqxth8lmt6m4r.cloudfront.net/assets/v1/step3-1bf4530d63c284cebf7ece8ae18882318bc38ea375b9c0b95838e0ec548e5c27.mp4"></video>              <div className='flex items-center justify-center gap-5 my-5 '>
                 <p className='para font-bold p-3 flex justify-center w-8 h-8 items-center rounded-full'>3</p>
                 <p className='font-semibold text-sm'>Insert the test strip into the Inito Fertility Monitor.</p>
               </div>
             </div>
             <div>
-              <img src={egif4} alt="" className='w-full'/>
-              <div className='flex items-center justify-center gap-5 my-5'>
+              <video autoplay="autoplay" loop="loop" muted="muted" oncontextmenu="return false" alt="Video: Identify up to 6 fertile days" playsinline="true" src="https://dqxth8lmt6m4r.cloudfront.net/assets/v1/step4-d6651cb2d7d03d35f8d9419477e4ee078c3c362a6aae3a7a1061daeec058c1db.mp4"></video>              <div className='flex items-center justify-center gap-5 my-5'>
                 <p className='para font-bold p-3 flex justify-center w-8 h-8 items-center rounded-full'>4</p>
                 <p className='font-semibold text-sm'>Get personalized results on our App in 5 minutes.</p>
               </div>
