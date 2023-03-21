@@ -4,7 +4,7 @@ import logo from '../images/Logo Inito.png';
 function Header() {
   return (
     <>
-        <navbar className="relative flex items-center justify-between px-5 md:px-20 py-5 z-50 bg-white">
+        <navbar className="relative sticky top-0 z-30 flex items-center justify-between px-5 md:px-20 py-5 z-50 bg-white">
             <img src={logo} alt="" />
             <div className='flex items-center justify-center gap-8'>
                 <ul className='lg:flex items-center justify-center gap-5 tracking-widest hidden lg:block'>
