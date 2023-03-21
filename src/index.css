@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +9,36 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1, h2, h2 {
+  color: #112D35;
+}
+
+.para {
+  background-color: #1F94AA;
+}
+
+span{
+  border-bottom: solid 8px;
+  border-color: #1F94AA;
+}
+button {
+  background-color: #1F94AA;
+  color: white
+  ;
+}
+
+button:hover {
+  background-color: #0b5765;
+}
+
+ul > li:hover {
+  color: #1F94AA;
+  cursor: pointer;
+}
+
+footer {
+  background-color:#112D35
 }
