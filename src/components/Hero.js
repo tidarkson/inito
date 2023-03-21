@@ -1,7 +1,6 @@
 import React from 'react'
 import Star from "../images/Star 1.png"
 import hand from "../images/hand.png"
-import Vector from '../images/Vector 54.png'
 
 
 function Hero() {
@@ -17,7 +16,6 @@ function Hero() {
         <div className="md:relative">
           <img src={hand} alt="" className='relative z-50'/>
           <img src={Star} alt="" className='hidden md:block absolute md:-top-16 md:right-0'/>
-          <img src={Vector} alt="" className='absolute bottom-16 lg:bottom-28 -left-16'/>
         </div>
       </section>
     </>

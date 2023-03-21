@@ -26,7 +26,7 @@ function Section1() {
 
           <div className="relative py-10">
             <img src={phone} alt="" className='relative z-10' />
-            <img src={Star} alt="" className='absolute bottom-64 md:top-0 right-0' />
+            <img src={Star} alt="" className='absolute bottom-72 md:top-0 -right-5' />
           </div>
         </section>
       </section>
